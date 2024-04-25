@@ -12,7 +12,7 @@ from govee_api_laggat.govee_errors import GoveeError
 
 _LOGGER = logging.getLogger(__name__)
 
-_API_BASE_URL = "https://developer-api.govee.com"
+_API_BASE_URL = "https://openapi.api.govee.com"
 _API_DEVICES = _API_BASE_URL + "/v1/devices"
 _API_DEVICES_CONTROL = _API_BASE_URL + "/v1/devices/control"
 _API_DEVICES_STATE = _API_BASE_URL + "/v1/devices/state"
