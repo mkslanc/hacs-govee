@@ -3,7 +3,7 @@
 from dataclasses import asdict
 import logging
 
-from govee_api_laggat import GoveeAbstractLearningStorage, GoveeLearnedInfo
+from .govee_api_laggat import GoveeAbstractLearningStorage, GoveeLearnedInfo
 import yaml
 
 from homeassistant.util.yaml import load_yaml, save_yaml

@@ -2,7 +2,7 @@
 import asyncio
 import logging
 
-from govee_api_laggat import Govee
+from .govee_api_laggat import Govee
 import voluptuous as vol
 
 from homeassistant.config_entries import ConfigEntry

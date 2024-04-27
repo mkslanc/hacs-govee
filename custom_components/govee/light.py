@@ -3,8 +3,8 @@
 from datetime import timedelta, datetime
 import logging
 
-from govee_api_laggat import Govee, GoveeDevice, GoveeError
-from govee_api_laggat.govee_dtos import GoveeSource
+from .govee_api_laggat import Govee, GoveeDevice, GoveeError
+from .govee_api_laggat.govee_dtos import GoveeSource
 
 from homeassistant.components.light import (
     ATTR_BRIGHTNESS,
