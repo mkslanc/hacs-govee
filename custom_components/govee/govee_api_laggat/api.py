@@ -7,7 +7,7 @@ import math
 import ssl
 from typing import Any, List, Tuple, Union
 
-from govee_api_laggat.govee_dtos import GoveeDevice, GoveeSource
+from .govee_dtos import GoveeDevice, GoveeSource
 
 _LOGGER = logging.getLogger(__name__)
 
